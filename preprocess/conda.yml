@@ -7,4 +7,5 @@ dependencies:
   - pip=20.3.3
   - pyarrow=2.0
   - pip:
-      - wandb==0.10.21
+      - wandb==0.13.4
+      - protobuf==3.19.*

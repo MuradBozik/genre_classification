@@ -1,0 +1,31 @@
+{
+    "os": "macOS-13.0-x86_64-i386-64bit",
+    "python": "3.9.13",
+    "heartbeatAt": "2022-11-06T11:53:06.078376",
+    "startedAt": "2022-11-06T11:53:05.394055",
+    "docker": null,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "-s",
+        "-vv",
+        ".",
+        "--reference_artifact",
+        "exercise_14/preprocessed_data.csv:latest",
+        "--sample_artifact",
+        "preprocessed_data.csv:latest",
+        "--ks_alpha",
+        "0.05"
+    ],
+    "state": "running",
+    "program": "/Users/muradbozik/miniconda3/envs/mlflow-182614f95248e53638845493f7b60df22b7ff19a/bin/pytest",
+    "git": {
+        "remote": "git@github.com:MuradBozik/genre_classification.git",
+        "commit": "1957c7db4a13f1a7df6562262f6379eaf122cb92"
+    },
+    "email": "murad.bozik@gmail.com",
+    "root": "/Users/muradbozik/Downloads/Udacity_MLOps/genre_classification",
+    "host": "mrdmac.home",
+    "username": "muradbozik",
+    "executable": "/Users/muradbozik/miniconda3/envs/mlflow-182614f95248e53638845493f7b60df22b7ff19a/bin/python"
+}
