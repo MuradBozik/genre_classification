@@ -1,0 +1,35 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.8.13",
+    "heartbeatAt": "2022-11-06T12:25:32.539350",
+    "startedAt": "2022-11-06T12:25:31.975876",
+    "docker": null,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "--train_data",
+        "data_train.csv:latest",
+        "--model_config",
+        "/Users/muradbozik/Downloads/Udacity_MLOps/genre_classification/outputs/2022-11-06/13-24-11/random_forest_config.yml",
+        "--export_artifact",
+        "model_export",
+        "--random_seed",
+        "42",
+        "--val_size",
+        "0.3",
+        "--stratify",
+        "genre"
+    ],
+    "state": "running",
+    "program": "run.py",
+    "codePath": "random_forest/run.py",
+    "git": {
+        "remote": "git@github.com:MuradBozik/genre_classification.git",
+        "commit": "21ac2adab6637afaaf5ba07e3d121715bec515f9"
+    },
+    "email": "murad.bozik@gmail.com",
+    "root": "/Users/muradbozik/Downloads/Udacity_MLOps/genre_classification",
+    "host": "mrdmac.home",
+    "username": "muradbozik",
+    "executable": "/Users/muradbozik/miniconda3/envs/mlflow-388a4b78a1a860d02b587590644fcbb5150912ea/bin/python"
+}

@@ -1,0 +1,31 @@
+{
+    "os": "macOS-13.0-x86_64-i386-64bit",
+    "python": "3.9.13",
+    "heartbeatAt": "2022-11-06T12:24:37.884273",
+    "startedAt": "2022-11-06T12:24:37.446175",
+    "docker": null,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "raw_data.parquet:latest",
+        "--artifact_name",
+        "preprocessed_data.csv",
+        "--artifact_type",
+        "preprocessed_data",
+        "--artifact_description",
+        "Preprocessed data"
+    ],
+    "state": "running",
+    "program": "/Users/muradbozik/Downloads/Udacity_MLOps/genre_classification/preprocess/run.py",
+    "codePath": "preprocess/run.py",
+    "git": {
+        "remote": "git@github.com:MuradBozik/genre_classification.git",
+        "commit": "21ac2adab6637afaaf5ba07e3d121715bec515f9"
+    },
+    "email": "murad.bozik@gmail.com",
+    "root": "/Users/muradbozik/Downloads/Udacity_MLOps/genre_classification",
+    "host": "mrdmac.home",
+    "username": "muradbozik",
+    "executable": "/Users/muradbozik/miniconda3/envs/mlflow-6fd4614e08f61faa0fba8689a5f2ae1b91e34630/bin/python"
+}
